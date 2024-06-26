@@ -30,7 +30,28 @@ main {
     padding: 50px;
 }
 
-    
+.vitamin-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ensures even spacing between cards */
+  margin-bottom: 50px; /* Adds margin for spacing */
+}
+
+.vitamin-card {
+  width: 22%; /* Maintains 22% width for each card */
+  margin-bottom: 20px;
+  text-align: center; /* Centers content within each card */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adds subtle shadow effect */
+}
+
+.vitamin-card img {
+  width: 100%; /* Ensures images fill the card width */
+  height: auto; /* Maintains image aspect ratio */
+  /* Added property for maintaining ratio */
+  object-fit: cover;
+}
+
+
 
     </style>
 </head>
@@ -40,30 +61,31 @@ main {
         <p>Unlock the secrets of essential vitamins and their vital role in health.</p>
     </header>
     <main>
+        <h2>Essential Vitamin Groups</h2>
         <section class="vitamin-types">
-            <h2>Essential Vitamin Groups</h2>
+            
             <div class="vitamin-card">
-                <img src="images/vitamin_a.jpg" alt="Vitamin A">
+                <img src="https://healthjade.com/wp-content/uploads/2017/01/sources-of-vitamin-A.jpg" alt="Vitamin A">
                 <h3>Vitamin A</h3>
                 <p>Supports vision, healthy skin, and immunity.</p>
             </div>
             <div class="vitamin-card">
-                <img src="images/vitamin_b_complex.jpg" alt="Vitamin B Complex">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgTl_zt1TR-Zn6YlJvGjv6RCT7X_Yjlzgs8tjfzqSHm3mXxN-EhkzwTpQrnpHdM8Zeeys&usqp=CAU" alt="Vitamin B Complex">
                 <h3>Vitamin B Complex</h3>
                 <p>Crucial for energy metabolism, nerve function, and cell health.</p>
             </div>
             <div class="vitamin-card">
-                <img src="images/vitamin_c.jpg" alt="Vitamin C">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRbdFCqBNc1RLdZ8Do0NXSynDCZfPbxtPfE12R9EOs4mHX4sqv4U5i_frguOXYrY1wR4E&usqp=CAU" alt="Vitamin C">
                 <h3>Vitamin C</h3>
                 <p>Essential for immune function, antioxidant defense, and collagen synthesis.</p>
             </div>
             <div class="vitamin-card">
-                <img src="images/vitamin_d.jpg" alt="Vitamin D">
+                <img src="https://media.istockphoto.com/id/1289414271/vector/vitamin-d-food-sources-information-banner-vector-illustration.jpg?s=612x612&w=0&k=20&c=KhSMZUqMH5ckAjXkcmlMxh9GwOKq-Itzawa_32xErRA=" alt="Vitamin D">
                 <h3>Vitamin D</h3>
                 <p>Promotes bone health, supports immune function, and regulates calcium absorption.</p>
             </div>
             <div class="vitamin-card">
-                <img src="https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.emito.net%2Fl%2Fhttp%2Flambent.homes%2Fhigh-vitamin-e-foods&psig=AOvVaw2Lddg7-8gYHd-C1fxnAD-h&ust=1719508574899000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjf2tDf4vmGAxViS2wGHcQ1AgoQjRx6BAgAEBU" alt="Vitamin E">
+                <img src="https://img.freepik.com/premium-vector/vitamin-e-vector-stock-illustration-food-products-with-high-content-tocopherol-kiwi-mamey-sapote-swiss-chard-red-sweet-pepper-avocado-butternut-squash-brazil-nuts-peanuts-salmon_317038-676.jpg" alt="Vitamin E">
                 <h3>Vitamin E</h3>
                 <p>Powerful antioxidant that protects cells and supports healthy vision.</p>
             </div>

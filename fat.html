@@ -34,7 +34,7 @@ main {
 section {
     margin-bottom: 50px;
 }
-
+/*
 .fat-types {
     display: flex;
     flex-wrap: wrap;
@@ -46,7 +46,26 @@ section {
     margin-bottom: 20px;
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}*/
+.fat-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ensures even spacing between cards */
+  margin-bottom: 50px; /* Adds margin for spacing */
 }
+
+.fat-card {
+  width: 22%; /* Maintains 22% width for each card */
+  margin-bottom: 20px;
+  text-align: center; /* Centers content within each card */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adds subtle shadow effect */
+}
+
+.fat-card img {
+  width: 100%; /* Ensures images fill the card width */
+  height: auto; /* Maintains image aspect ratio */
+}
+
 
 
     </style>
@@ -60,17 +79,17 @@ section {
         <section class="fat-types">
             <h2>Types of Dietary Fats</h2>
             <div class="fat-card">
-                <img src="images/unsaturated_fat.jpg" alt="Unsaturated Fat">
+                <img src="https://www.noahsnutrition.com/wp-content/uploads/2022/03/Fats-Unsaturated-768x1152.jpg" alt="Unsaturated Fat">
                 <h3>Unsaturated Fats</h3>
                 <p>Considered "healthy fats," promote heart health and may reduce inflammation.</p>
             </div>
             <div class="fat-card">
-                <img src="images/saturated_fat.jpg" alt="Saturated Fat">
+                <img src="https://www.noahsnutrition.com/wp-content/uploads/2022/03/Fats-Saturated.jpg" alt="Saturated Fat">
                 <h3>Saturated Fats</h3>
                 <p>Found in animal products and some plant sources. Consume in moderation.</p>
             </div>
             <div class="fat-card">
-                <img src="images/trans_fat.jpg" alt="Trans Fat">
+                <img src="https://th.bing.com/th/id/OIP.OtEUYG70kBoJ6RFXH6zg7gHaFD?w=282&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Trans Fat">
                 <h3>Trans Fats</h3>
                 <p>Unhealthy fats to limit or avoid. Often found in processed foods.</p>
             </div>
